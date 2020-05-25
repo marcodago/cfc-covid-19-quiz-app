@@ -8,7 +8,7 @@ This tutorial shows you how to build a simple quiz app to assess learner underst
 
 Loopback is an open source tool for quickly building a data api for your applications. Whatever your specific application's purpose, Loopback gets you quickly writing application logic instead of data-handling code.
 
-![Quiz app interface](images/quiz-app.png)
+![Quiz app interface](img/quiz-app.png)
 
 You can find code and related files for this tutorial in the accompanying <a href="https://github.com/Call-for-Code/cfc-covid-19-quiz-app" target="\_blank">GitHub repo</a>.
 
@@ -29,7 +29,7 @@ Completing this tutorial should take about 30 minutes
 
 ## Architecture diagram
 
-![Quiz app architecture diagram](images/cfc-covid19-remote-education-diagram-1.png)
+![Quiz app architecture diagram](img/cfc-covid19-remote-education-diagram-1.png)
 
 1. The user navigates to the site.
 2. The user is presented with a website, a React front end.
@@ -54,7 +54,7 @@ However, to start this app, use the following steps. (**Note**: To use pre-creat
    
 2. When the API is up, navigate to the Swagger API explorer at <https://localhost:3030/explorer>. From there, you can start to add data into your API right away. 
 
-    ![Swagger API explorer - adding data](images/quiz-app-2.png)
+    ![Swagger API explorer - adding data](img/quiz-app-2.png)
 
 3. Create a quiz using this JSON blob:
 
@@ -66,7 +66,7 @@ However, to start this app, use the following steps. (**Note**: To use pre-creat
   }
   ```
 
-   ![Swagger API explorer - creating a quiz](images/quiz-app-4.png)
+   ![Swagger API explorer - creating a quiz](img/quiz-app-4.png)
 
 4. Create a question using this JSON blob:
 
@@ -84,7 +84,7 @@ However, to start this app, use the following steps. (**Note**: To use pre-creat
    }
    ```
    
-    ![Swagger API explorer - creating a question](images/quiz-app-3.png)
+    ![Swagger API explorer - creating a question](img/quiz-app-3.png)
 
 ## 2. Create the app front end
 
